@@ -17,7 +17,8 @@ function addPictures() {
 	console.log("In addPictures");
 	for (let person of people) {
 		$("#pictures").append(`
-        <img class="correctImage" data-name="${person.name}" src="https://github.com/${person.githubUsername}.png?size=250" alt="Profile image of ${person.name}">
+        <img class="correctImage" data-name="${person.name}" src="https://github.com/${person.githubUsername}.png?size=250" 
+		alt="Profile image of ${person.name}">
         `);
 	} // End for of loop
 
